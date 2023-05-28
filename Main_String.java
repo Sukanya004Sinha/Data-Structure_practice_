@@ -19,9 +19,9 @@ for(int i=0;i<s.length();i++){
 }
 /*******************************************************/
 //substring 
-String s1 = "sparm";
-System.out.println(s1. substring(1,3));
-System.out.println(s1.substring(1));
+String s2 = "sparm";
+System.out.println(s2. substring(1,3));
+System.out.println(s2.substring(1));
 /**********************************************************/
 
 String t1 = "sparm";
@@ -39,7 +39,7 @@ System.out.println(k1);
 System.out.println("hello" +10+20); // its evaluating left to right 
 System.out.println(10+20 +"hello");
 System.out.println(10 +"hello" +20);
-/********************************************
+/*****
  * 
  * Split
 */

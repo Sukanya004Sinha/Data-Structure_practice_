@@ -1,3 +1,4 @@
+//printAllSubstring
 import java.util.*;
 public class printAllSubstring {
     public static void main(String... args){
