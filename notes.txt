@@ -1,0 +1,4 @@
+String s = "hello"
+inside stack one s variable will create and inside somewhere "Hello" will stored
+It is not just a character array 
+in String there is no method like setChar
