@@ -69,6 +69,7 @@ public static int lastIndex(int[]arr, int data){
             arr[i] = scn.nextInt();
         }
 
+
     }
     
 }
