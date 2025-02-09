@@ -4,6 +4,7 @@
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Level_1" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Level_1/Array" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Level_1/DSA" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Level_1/Getting_started" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Level_1/Recursion" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Level_1/String" vcs="Git" />
