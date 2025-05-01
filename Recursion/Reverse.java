@@ -31,7 +31,7 @@ public class Reverse {
 }
 
     public static void main(String[] args) {
-        int n = 18249908;
+        int n = 18249;
         rev(n);
         System.out.println(sum);
         rev1(n);
