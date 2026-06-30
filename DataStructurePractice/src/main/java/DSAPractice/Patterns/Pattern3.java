@@ -1,0 +1,34 @@
+package DSAPractice.Patterns;
+
+import java.util.Scanner;
+
+public class Pattern3 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int total_num_of_lines = n;
+        int curr_numof_line = 1;
+        int starts = 1;
+        int spaces = n-1;
+        while (curr_numof_line <= total_num_of_lines) {
+            //prinnt spaces
+            //print starts
+            //prepare for next line
+            for (int i = 1; i <= spaces; i++) {
+                System.out.print("  ");
+            }
+            for (int i = 1; i <= starts; i++) {
+                System.out.print("* ");
+            }
+
+
+            System.out.println();
+            spaces--;
+            starts++;
+
+            curr_numof_line++;
+        }
+    }
+}
+
+
