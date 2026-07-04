@@ -9,24 +9,19 @@ public class Pattern4 {
         int n = sc.nextInt();
         int total_num_of_lines = n;
         int curr_numof_line = 1;
-        int starts = n;
-        int spaces = 0;
-        while (curr_numof_line <= total_num_of_lines) {
-            for (int i = 1; i <= spaces; i++) {
-                System.out.print("  ");
+        int stars = n;
+        int spaces= 0;
+        while (curr_numof_line<=total_num_of_lines){
+        for (int i = 1;i<=stars;i++){
+            System.out.print("* ");
+        }
+            for (int i = 1;i<=spaces;i++){
+                System.out.print(" ");
             }
-            for (int i = 1; i <= starts; i++) {
-                System.out.print("* ");
-            }
-
-
             System.out.println();
             spaces++;
-            starts--;
-
+            stars--;
             curr_numof_line++;
         }
+        }
     }
-}
-
-
