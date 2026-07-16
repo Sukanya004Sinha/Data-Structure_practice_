@@ -14,6 +14,9 @@ public class BinaryToDecimal {
         int pow2 = 1;
         while(binaryNum>0){
             int lastDigit = binaryNum%10;
+            if(lastDigit!=0 && lastDigit!=1){
+                throw new IllegalArgumentException("Invalid binary number");
+            }
             int binary = lastDigit*pow2;
             res= res+binary;
             binaryNum/=10;
