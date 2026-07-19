@@ -34,6 +34,7 @@ public class AddTwoNumbers {
     }
     public static void printArray(int[] res){
         for (int i =0;i<res.length;i++){
+            if(i ==0&& res[i]==0) continue;
             System.out.print(res[i] + ",");
         }
     }
