@@ -1,4 +1,4 @@
-package DSAPractice;
+package DSAPractice.TwoDArray;
 
 public class TwoDArray {
 
