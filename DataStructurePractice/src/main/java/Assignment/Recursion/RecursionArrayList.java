@@ -2,7 +2,7 @@ package Assignment.Recursion;
 
 import java.util.ArrayList;
 
-public class RecursionArrayList {
+public class  RecursionArrayList {
     public static void main(String[] args) {
 
  int n = 3;
@@ -61,6 +61,8 @@ public class RecursionArrayList {
         }
         return mres;
     }
+
+
     public static ArrayList<String> getStairsPaths(int n){
          if(n==0){
              ArrayList<String> bres = new ArrayList<>();
@@ -69,6 +71,7 @@ public class RecursionArrayList {
          }
          else if(n<0){
              ArrayList<String> bres = new ArrayList<>();
+             bres.add("");
              return  bres;
          }
          ArrayList<String> paths1= getStairsPaths(n-1);
