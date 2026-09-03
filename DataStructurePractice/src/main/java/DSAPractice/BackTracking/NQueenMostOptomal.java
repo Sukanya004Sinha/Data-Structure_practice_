@@ -64,6 +64,9 @@ public class NQueenMostOptomal {
                 }
             }
 
+
+
+
             return count;
         }
     public int totalNQueens(int n) {
