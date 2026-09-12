@@ -5,13 +5,12 @@ class LinkedList {
   Node tail;
   int size;
 
-  
-  
-  public LinkedList() {
+public LinkedList() {
 this.head =null;
 this.tail= null;
 this.size=0;
 }
+
 
     class Node{
         int data;
@@ -48,10 +47,41 @@ this.size=0;
         }
         size++;
       }
-    
-    
+   public void removeLast(){
+    if(head==null){
+      System.out.println("No such element in LinkedList to delete");
+      return ;
+    }
+    else if(head==tail){
+      head = null;
+      tail = null;
+    }
+    else{
+      Node temp = head;
+      while(temp.next!=null){
+        Node tempKaNext = temp.next;
+        temp = tempKaNext;
+      }
+    temp.next = null;
+    tail= temp;
+   
+    }
+    this.size--;
 
-  class MainLL{
+  }
+}
+      public void display(){
+        Node temp = head;
+        while(temp!=null){
+          System.out.print(temp.data + " -> ");
+          Node tempKaNext = temp.next;
+          temp = tempKaNext;
+        }
+        System.out.println("null");
+      }
+    
+    }
+  public class MainLL{
     public static void main(String[] args){
       LinkedList list = new LinkedList();
       list.addFirst(10);
@@ -59,7 +89,7 @@ this.size=0;
       list.addFirst(30);
       list.addLast(40);
       list.addLast(50);
+      list.addLast(60);
       list.display();
     }
-  }  
-}
+  }
